@@ -1,0 +1,13 @@
+.cardComments {
+    width: 100%;
+    max-width: 96rem;
+    background-color: var(--bg-color-section-cars);
+    border: 1px solid var(--text-color-comments);
+    padding: 2.5rem 2rem;
+    border-radius: 1.2rem;
+}
+.cardComments p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--text-color-comments);
+}

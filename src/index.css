@@ -1,1 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
 
+:root {
+  --bg-color-header: #3C9AF0;
+  --bg-color-section-cars: #ffffff;
+  --bg-color-section-comments: #C8C8C8;
+
+  --text-color-header-footer: #ffffff;
+  --text-color-primary: #5E5E5E;
+  --text-color-comments: #3C9AF0;
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100vh;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cars-section {
+  width: 100%;
+  max-width: 74.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 2.5rem 2rem;
+  background-color: var(--bg-color-section-cars);
+}
+
+h2 {
+  color: var(--text-color-primary);
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+}
+
+.comments-section {
+  padding: 2.5rem 2rem;
+  background-color: var(--bg-color-section-comments);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+@media (max-width:490px) {
+  h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
